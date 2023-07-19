@@ -1,0 +1,35 @@
+.service__head{
+    letter-spacing: 10px;
+    margin-bottom: 25px;
+}
+
+.num{
+    font-size: 40px;
+    font-weight: 500;
+    font-family: 'Oswald',sans-serif;
+    position: absolute;
+    bottom: 20px;
+    right: 30px;
+    color: transparent;
+    -webkit-text-stroke: 1px rgba(255, 255, 255, 0.1);
+    line-height: 1em;
+}
+
+.item:hover{
+    background-color: rgb(49, 49, 49);
+    
+}
+
+
+.line{
+ width: 20%;
+ height: 1px;
+ background: #b19777;
+ opacity: 0.2;
+ margin-bottom: 20px;
+ transition: width .6s;
+}
+.item:hover .line{
+    width: 100%;
+    opacity: 0.8;
+}

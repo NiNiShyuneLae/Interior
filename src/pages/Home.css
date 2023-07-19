@@ -1,0 +1,112 @@
+.icons{
+  bottom: 24px;
+  left: 35%;
+}
+
+.icon{
+  border: 1px solid #323232;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  font-size: 13px;
+  color: #999;
+  text-align: center;
+  padding-top: 10px;
+  margin-bottom: 7px;
+}
+
+.icon:hover {
+  border: 1px solid #b19777;
+  color: #b19777;
+  transition: all 0.4s;
+}
+
+
+.slide-content {
+  position: relative;
+}
+
+.slide-img {
+  width: 100%;
+  object-fit: cover;
+  opacity: 65%;
+}
+
+.slide-text {
+  position: absolute;
+  top: 35%;
+  left: 40%;
+  transform: translate(-10px, -23px);
+  color: #fff;
+  text-align: center;
+}
+
+.small {
+  font-size: 18px;
+  margin-right: 15px;
+}
+
+.animated-button {
+  position: relative;
+  padding: 12px 24px;
+  background-color: transparent;
+  border: 1px solid white;
+  font-size: 16px;
+  letter-spacing: 3px;
+  cursor: pointer;
+  margin-top: 30px;
+  margin-right: 15px;
+}
+
+.animated-button::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 0;
+  height: 100%;
+  background-color: white;
+  transition: width 0.3s ease-in-out;
+  z-index: -1;
+}
+
+.animated-button:hover {
+  color: black;
+}
+
+.animated-button:hover::before {
+  width: 100%;
+  left: 0;
+}
+
+.swiper-nav {
+  font-size: 11px;
+  top: 87%;
+  left: 3%;
+  width: 90px;
+  height: 50px;
+  right: 0;
+  transform: translateY(30px);
+  display: flex;
+  justify-content: space-between;
+  z-index: 1;
+}
+
+.prev,
+.next {
+  width: 40px;
+  height: 40px;
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  font-size: 11px;
+  cursor: pointer;
+  border-radius: 100%;
+}
+
+.prev:hover,
+.next:hover {
+  border: 1px solid #b19777;
+  color: #b19777;
+  transform: scale(0.9);
+  transition: 0.5s;
+}

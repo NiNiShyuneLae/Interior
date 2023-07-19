@@ -1,0 +1,31 @@
+@import "../node_modules/animate.css/animate.min.css";
+@import url("https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Oswald:wght@200;300;400;500&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media (max-width: 992px) {
+  html,
+  body {
+    width: 100%;
+    overflow-x: hidden;
+  }
+}
+
+/* @keyframes screen-appear {
+  0% {
+    transform: scaleY(0);
+    transform-origin: center;
+  }
+  100% {
+    transform: scaleY(1);
+  }
+}
+
+body {
+  animation: screen-appear 1s ease-in forwards;
+} */
+
+html{
+  scroll-behavior: smooth;
+}

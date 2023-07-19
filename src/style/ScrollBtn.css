@@ -1,0 +1,8 @@
+.disappear{
+   
+  bottom: -20px;
+  
+  transform: translateY(-50%);
+  transition: bottom 1s linear;
+  z-index: 9999;
+}
